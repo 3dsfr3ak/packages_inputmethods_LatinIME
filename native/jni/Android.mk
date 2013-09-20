@@ -56,7 +56,7 @@ LATIN_IME_CORE_SRC_FILES := \
     proximity_info.cpp \
     proximity_info_params.cpp \
     proximity_info_state.cpp \
-    proximity_info_state_utils.cpp \
+    proximity_info_state_utils.cpp
     unigram_dictionary.cpp \
     words_priority_queue.cpp \
     suggest/core/suggest.cpp \
@@ -121,7 +121,6 @@ endif # FLAG_DO_PROFILE
 LOCAL_MODULE := libjni_latinime
 LOCAL_MODULE_TAGS := optional
 
-<<<<<<< HEAD
 ifdef HISTORICAL_NDK_VERSIONS_ROOT # In the platform build system
 LOCAL_STATIC_LIBRARIES += libstlport_static
 endif
